@@ -1,0 +1,95 @@
+/* styles.css */
+
+/* Reset default margins and paddings */
+body,
+h1,
+h2,
+p,
+ul,
+li,
+form {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set default font and background colors */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f8f8f8;
+}
+
+/* Header styles */
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#brand-logo {
+  max-width: 100px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Main styles */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* About section styles */
+#about div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Work and Resume section styles */
+#work img,
+#resume img {
+  max-width: 100%;
+}
+
+/* Contact section styles */
+#contact div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+form label,
+form input,
+form textarea,
+form select {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
